@@ -39,7 +39,7 @@ const submitForm = async (formEl) => {
 </script>
 <template>
   <div class="login">
-    <div class="login-content">
+    <div class="loginBox">
       <el-form 
       ref="ruleFormRef" 
       :model="temp" 
@@ -63,3 +63,20 @@ const submitForm = async (formEl) => {
     </div>
   </div>
 </template>
+
+<style scoped lang="scss">
+.login {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.loginBox {
+  height: 455px;
+  width: 550px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  margin-top: -287px;
+}
+</style>
