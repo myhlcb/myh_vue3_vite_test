@@ -2,5 +2,7 @@
 </script>
 
 <template>
-    <router-view />
+    <div>
+        finance
+    </div>
 </template>

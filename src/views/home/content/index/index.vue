@@ -2,5 +2,7 @@
 </script>
 
 <template>
-    <router-view />
+    <div>
+        index
+    </div>
 </template>
