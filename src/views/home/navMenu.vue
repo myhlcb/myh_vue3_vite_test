@@ -17,7 +17,7 @@ const items = reactive([{
         router
       >
         <el-menu-item :index="v.path" v-for="v in items" :key="v.path">
-          <el-icon><icon-menu /></el-icon>
+          <el-icon></el-icon>
           <span>{{ v.content }}</span>
         </el-menu-item>
       </el-menu>
